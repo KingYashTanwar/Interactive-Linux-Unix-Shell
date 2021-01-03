@@ -8,9 +8,9 @@
 - The program ends when the exit command is given by the user. 
 - Proper error handling has been done in all the programs to cover all cases. 
 
-*Commands:*
+## **Commands:**
 
-cd 
+### cd 
 - It changed the working directory. 
 - It can take -P,  ~, .. and --help options. 
 - It will work if the directory name consists of a single word. 
@@ -18,47 +18,47 @@ cd
 
 ![](images/1.png)
 
-echo 
+### echo 
 - It prints the message after it. 
 - It can take -n and -E options. 
 - Backslash, double quotes and single quotes would be printed as it is. 
 
 ![](images/2.png)
 
-history 
+### history 
 - It prints the list of entire commands used in the particular session. 
 - It can take two options -a and -c 
 - history -a is just stored in history and history -c clears history. 
 
 ![](images/3.png)
 
-pwd 
+### pwd 
 - It tells the present working directory. 
 - It can take -P and --help options. 
 - Suitable errors are handled. 
 
 ![](images/4.png)
 
-exit 
+### exit 
 - It terminates the shell. 
 
 ![](images/5.png)
 
-- ls 
+### ls 
 - It lists the contents of the present directory. 
 - It can take -m and -1 options. 
 - Suitable errors are handled. 
 
 ![](images/6.png)
 
-cat 
+### cat 
 - It reads the contents of a text file. 
 - It has options -n and -E 
 - Suitable errors are handled. 
 
 ![](images/7.png)
 
-date 
+### date 
 - It prints the date. 
 - The options -u and -R are implemented. 
 - date -u -R and date -R -u can also be done. 
@@ -67,14 +67,14 @@ date
 
 ![](images/8.png)
 
-rm 
+### rm 
 - It removes a directory or a file. 
-- Options: -d and -v 
+- Options: -d and -v ### 
 - Suitable errors are handled. 
 
 ![](images/9.png)
 
-mkdir 
+### mkdir 
 - It makes directories. 
 - Options: -m and -v 
 - Suitable errors are handled. 
