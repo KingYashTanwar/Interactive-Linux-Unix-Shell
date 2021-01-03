@@ -1,6 +1,6 @@
-﻿**SHELL** 
+# **SHELL** 
 
-*Working:* 
+## **Working:**
 
 - A while loop is being run repeatedly until the exit option is selected. The whole command is taken as input using readline. The input command is then split into individual words using strtok and later stored into a char[ ][ ] array. 
 - The input is compared with all the given commands using strcmp and if it matches any, then that command is executed, otherwise proper error messages are printed. 
